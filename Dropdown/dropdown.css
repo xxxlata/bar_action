@@ -1,0 +1,39 @@
+.dropbtn{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    border:none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: cornsilk;
+    min-width: 6.8rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: cornflowerblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: green;
+}
